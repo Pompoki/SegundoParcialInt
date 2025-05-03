@@ -1,0 +1,65 @@
+#quienes-somos{
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid #48f;
+    box-shadow: 0 0 20px #8af;
+    padding: 12px;
+}
+
+.texto{
+    margin-left: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+.pie-pagina{
+    margin-top: 40px;
+    background: #48f;
+    padding: 30px 80px;
+}
+
+.formulario{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+}
+
+input{
+    margin: 10px;
+}
+
+.nombre{
+    display: flex;
+
+}
+
+h3{
+    color: #fff;
+}
+
+@media screen and (max-width:1020px) {
+    #quienes-somos{
+        flex-direction: column;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    #quienes-somos{
+        width: 400px;
+    }
+
+    .formulario{
+        width: 300px;
+    }
+
+    .nombre{
+        flex-direction: column;
+    }
+
+    input{
+        margin: 3px;
+    }
+}
